@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Move to Heal: AI-powered home rehabilitation that checks your exercise form</title>
+<meta name="description" content="Move to Heal is an AI-powered home rehabilitation app that checks your exercise form. Youth Team Winner, Global AI Hackathon 2025. Built by a team from Türkiye.">
+<meta name="theme-color" content="#5B21B6">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="favicon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Move to Heal">
+<meta property="og:description" content="An AI-powered home rehabilitation app that checks your exercise form. Youth Team Winner, Global AI Hackathon 2025.">
+<meta property="og:image" content="https://nsumia.github.io/move-to-heal/img/og.jpg">
+<meta property="og:image:alt" content="The five members of the Move to Heal team holding microphones">
+<meta property="og:url" content="https://nsumia.github.io/move-to-heal/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#story">Skip to content</a>
+
+<header class="top">
+  <a class="brand" href="#top" aria-label="Move to Heal, back to top">
+    <img src="img/app-icon.png" alt="" width="32" height="32">
+    <span>Move to Heal</span>
+  </a>
+  <nav aria-label="Main">
+    <a href="#story">Story</a>
+    <a href="#how">How it works</a>
+    <a href="#app">The app</a>
+    <a href="#exercises">Exercises</a>
+    <a href="#awards">Awards</a>
+    <a href="#team">Team</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="h-hero">
+    <div class="hero-copy">
+      <p class="badge">Youth Team Winner · Global AI Hackathon 2025</p>
+      <h1 id="h-hero">Move to Heal</h1>
+      <p class="lede">An AI-powered home rehabilitation app that checks your exercise form, so you can see how each repetition looks.</p>
+      <p class="cta">
+        <a class="btn primary" href="https://youtu.be/oen8PSz9ios" rel="noopener">Watch our video</a>
+        <a class="btn" href="#story">Our story</a>
+      </p>
+    </div>
+    <figure class="hero-art">
+      <div class="phone">
+        <img src="img/app-body-area.webp" width="360" height="632" alt="Move to Heal app screen asking which part of your body needs extra care today, with Neck and Shoulders, Waist, and Knee and Hip choices">
+      </div>
+      <figcaption>The Move to Heal app</figcaption>
+    </figure>
+  </section>
+
+  <section id="story" class="story" aria-labelledby="h-story">
+    <div class="wrap">
+      <h2 id="h-story">Exercises done wrong at home go unnoticed</h2>
+      <div class="story-grid">
+        <div class="prose">
+          <p>Physical therapy only works when the movement is right. At home, nobody is there to say that a shoulder is too high or a knee is out of line.</p>
+          <p>The idea for Move to Heal came from a team member&rsquo;s grandmother. Her condition got worse when she did her exercises the wrong way at home. The team built the app so that no one has to guess.</p>
+        </div>
+        <div class="quotes">
+          <blockquote>
+            <p>&ldquo;Doing physical therapy incorrectly at home is a serious issue that often goes unnoticed.&rdquo;</p>
+          </blockquote>
+          <blockquote>
+            <p>&ldquo;We wanted to create something that supports people on their healing journey.&rdquo;</p>
+          </blockquote>
+          <p class="src">The Move to Heal team, in the <a href="https://www.appinventor.org/news/winners-spotlight-2026" rel="noopener">MIT App Inventor Winners Spotlight</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="how" aria-labelledby="h-how">
+    <div class="wrap">
+      <h2 id="h-how">Three steps from watching to knowing</h2>
+      <ol class="steps">
+        <li>
+          <span class="n" aria-hidden="true">1</span>
+          <h3>Watch the 3D demo</h3>
+          <p>A 3D figure shows the exercise, one slow repetition at a time, with the hold times on screen.</p>
+        </li>
+        <li>
+          <span class="n" aria-hidden="true">2</span>
+          <h3>Do it in front of your phone</h3>
+          <p>The camera follows your body and draws a pose skeleton over you as you move.</p>
+        </li>
+        <li>
+          <span class="n" aria-hidden="true">3</span>
+          <h3>Get instant AI feedback</h3>
+          <p>Correct and wrong bars show how your form compares, while you are still in the movement.</p>
+        </li>
+      </ol>
+      <div class="tech" aria-labelledby="h-tech">
+        <h3 id="h-tech">Under the hood</h3>
+        <ul>
+          <li>Trained on 3,000+ skeleton images</li>
+          <li>Pose detection with PoseNet (17 body keypoints)</li>
+          <li>One custom image-classifier model per exercise (9 models), trained on synthetic 3D-mannequin poses showing correct form and common mistakes</li>
+          <li>3D-animated demo videos for every exercise</li>
+          <li>&ldquo;Can&rsquo;t see you&rdquo; guidance when your body is not fully in view</li>
+          <li>Built with MIT App Inventor</li>
+        </ul>
+        <p class="acc">High accuracy across all 9 exercises in our tests.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="app" class="app" aria-labelledby="h-app">
+    <div class="wrap">
+      <h2 id="h-app">Inside the app</h2>
+      <ul class="shots" tabindex="0" aria-label="App screenshots, scroll sideways to see more">
+        <li><figure><div class="phone sm"><img src="img/app-login.webp" width="360" height="632" loading="lazy" alt="The Move to Heal log in screen with the app logo, two fields and a Log in / Sign up button"></div><figcaption>Log in / sign up</figcaption></figure></li>
+        <li><figure><div class="phone sm"><img src="img/app-home.webp" width="360" height="632" loading="lazy" alt="The home screen with four choices: Favorite Exercises, Exercise History, New Exercise and AI Assistant"></div><figcaption>Home</figcaption></figure></li>
+        <li><figure><div class="phone sm"><img src="img/app-body-area.webp" width="360" height="632" loading="lazy" alt="Screen asking which part of your body needs extra care: Neck and Shoulders, Waist, or Knee and Hip"></div><figcaption>Pick a body area</figcaption></figure></li>
+        <li><figure><div class="phone sm"><img src="img/app-knee-hip.webp" width="360" height="632" loading="lazy" alt="List of knee and hip exercises: Side-Lying Leg Raise, Inner Thigh Lift and Wall Sit, each with a favorite star"></div><figcaption>Knee &amp; hip exercises</figcaption></figure></li>
+        <li><figure><div class="phone sm"><img src="img/app-favorites.webp" width="360" height="632" loading="lazy" alt="Favorites list showing Cross-Body Shoulder Stretch, Neck Stretch with Hand Assistance and Wall Shoulder Press"></div><figcaption>Favorites</figcaption></figure></li>
+        <li><figure><div class="phone sm"><img src="img/app-mova.webp" width="360" height="632" loading="lazy" alt="The Mova chat screen with an introduction and a box to ask about pain or movement"></div><figcaption>Mova AI assistant</figcaption></figure></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="mova" class="mova" aria-labelledby="h-mova">
+    <div class="wrap">
+      <h2 id="h-mova">Meet Mova, your AI rehab assistant</h2>
+      <div class="mova-copy">
+        <p>Ask Mova about your pain or movement challenges. Mova suggests exercises and gentle wellness tips, to support your recovery one movement at a time.</p>
+        <p class="note">Mova does not replace a doctor or physiotherapist. If you have a special condition, talk to a professional first.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="exercises" class="ex" aria-labelledby="h-ex">
+    <div class="wrap">
+      <h2 id="h-ex">Nine exercises, each with a 3D demo</h2>
+      <ul class="grid">
+        <li><img src="img/ex-crossbody-shoulder-stretch.webp" width="360" height="270" loading="lazy" alt="3D figure standing for the Cross-Body Shoulder Stretch"><h3>Cross-Body Shoulder Stretch</h3></li>
+        <li><img src="img/ex-neck-stretch-with-hand-assistance.webp" width="360" height="270" loading="lazy" alt="3D figure tilting the head with a hand on top for the Neck Stretch"><h3>Neck Stretch with Hand Assistance</h3></li>
+        <li><img src="img/ex-double-knee-to-chest.webp" width="360" height="270" loading="lazy" alt="3D figure lying down with both knees pulled to the chest"><h3>Double Knee to Chest</h3></li>
+        <li><img src="img/ex-inner-thigh-lift.webp" width="360" height="270" loading="lazy" alt="3D figure lying on one side lifting the inner leg"><h3>Inner Thigh Lift</h3></li>
+        <li><img src="img/ex-wall-shoulder-press.webp" width="360" height="270" loading="lazy" alt="3D figure pressing both arms up a wall"><h3>Wall Shoulder Press</h3></li>
+        <li><img src="img/ex-sidelying-leg-raise.webp" width="360" height="270" loading="lazy" alt="3D figure lying on one side raising the top leg"><h3>Side-Lying Leg Raise</h3></li>
+        <li><img src="img/ex-wall-sit.webp" width="360" height="270" loading="lazy" alt="3D figure sitting against a wall with knees bent"><h3>Wall Sit</h3></li>
+        <li><img src="img/ex-cobra-stretch.webp" width="360" height="270" loading="lazy" alt="3D figure lying face down pushing the chest up"><h3>Cobra Stretch</h3></li>
+        <li><img src="img/ex-glute-bridge.webp" width="360" height="270" loading="lazy" alt="3D figure lying on the back with the hips lifted"><h3>Glute Bridge</h3></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="awards" class="awards" aria-labelledby="h-aw">
+    <div class="wrap">
+      <h2 id="h-aw">Recognition</h2>
+      <dl>
+        <div>
+          <dt>2025</dt>
+          <dd>
+            <h3>Youth Team Winner, Global AI Hackathon 2025</h3>
+            <p>Run by MIT RAISE and the App Inventor Foundation. <a href="https://www.appinventor.org/news/winners-spotlight-2026" rel="noopener">Read the winners spotlight</a>.</p>
+          </dd>
+        </div>
+        <div>
+          <dt>2025</dt>
+          <dd>
+            <h3>Creative Innovation Award, MIT AI &amp; Education Summit 2025</h3>
+            <p>Awarded to the Move to Heal team.</p>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="team" class="team" aria-labelledby="h-team">
+    <div class="wrap team-grid">
+      <figure class="photo">
+        <img src="img/team.webp" width="480" height="463" loading="lazy" alt="The five members of the Move to Heal team standing together, each holding a microphone">
+        <figcaption>Photo and quote: <a href="https://www.appinventor.org/news/winners-spotlight-2026" rel="noopener">MIT App Inventor Winners Spotlight</a></figcaption>
+      </figure>
+      <div class="team-copy">
+        <h2 id="h-team">The team</h2>
+        <blockquote class="big">
+          <p>&ldquo;Don&rsquo;t wait for everything to be perfect; once you take the first step and set up the overall flow of your app, you can improve everything gradually, step by step.&rdquo;</p>
+        </blockquote>
+        <ul class="names">
+          <li>Ada Kilinc</li>
+          <li>Batuhan Pekcan</li>
+          <li>Defne Nil Pekdemir</li>
+          <li>Deniz Derya Gokcek</li>
+          <li>Eylul Karabulak</li>
+        </ul>
+        <p class="from">A team from Türkiye <svg class="flag" viewBox="0 0 24 16" width="24" height="16" role="img" aria-label="Flag of Türkiye"><rect width="24" height="16" rx="2" fill="#E30A17"/><circle cx="8.5" cy="8" r="4.2" fill="#fff"/><circle cx="9.7" cy="8" r="3.4" fill="#E30A17"/><polygon points="12.60,6.10 13.05,7.39 14.41,7.41 13.32,8.23 13.72,9.54 12.60,8.76 11.48,9.54 11.88,8.23 10.79,7.41 12.15,7.39" fill="#fff"/></svg></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="video" class="video" aria-labelledby="h-vid">
+    <div class="wrap">
+      <h2 id="h-vid">See it in action</h2>
+      <div class="frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/oen8PSz9ios" title="Move to Heal team video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <p class="alt"><a href="https://youtu.be/oen8PSz9ios" rel="noopener">Open the video on YouTube</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="disc">Move to Heal supports your rehabilitation and does not replace a physiotherapist. Talk to a professional before you start any exercise programme.</p>
+    <p>&copy; 2026 Move to Heal team</p>
+    <p>Built with MIT App Inventor</p>
+  </div>
+</footer>
+</body>
+</html>
